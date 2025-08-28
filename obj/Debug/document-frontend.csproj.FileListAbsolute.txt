@@ -1,0 +1,2 @@
+C:\DEV\IdOdontoProject\document-frontend\obj\Debug\document-frontend.csproj.AssemblyReference.cache
+C:\DEV\IdOdontoProject\document-frontend\obj\Debug\document-frontend.csproj.CoreCompileInputs.cache
