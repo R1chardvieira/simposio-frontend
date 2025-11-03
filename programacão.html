@@ -53,11 +53,47 @@
       </section>
     </header>
 
-    <main class="d-block d-lg-none">
-      <div class=" background-primary vh-30 d-flex justify-content-center align-items-center">
-        <h2 class="h1 d-block d-md-none fw-semibold fs-1 fc-primary">EM BREVE!</h2>
-      </div>
-    </main>
+<main class="container-fluid px-3 d-block d-lg-none">
+  <div id="carouselProgramacao" class="carousel slide" data-bs-ride="carousel">
+    <!-- carousel-inner com imagens aqui -->
+     <img src="./assets/image/programacao1.jpeg"
+     class="d-block w-100 w-md-75 w-lg-50 mx-auto img-thumbnail"
+     alt="Imagem 1"
+     data-bs-toggle="modal"
+     data-bs-target="#modalImagem1">
+     <img src="./assets/image/programacao2.jpeg"
+     class="d-block w-100 w-md-75 w-lg-50 mx-auto img-thumbnail"
+     alt="Imagem 2"
+     data-bs-toggle="modal"
+     data-bs-target="#modalImagem2">
+     <img src="./assets/image/programacao3.jpeg"
+     class="d-block w-100 w-md-75 w-lg-50 mx-auto img-thumbnail"
+     alt="Imagem 3"
+     data-bs-toggle="modal"
+     data-bs-target="#modalImagem3">
+  </div>
+  <div class="modal fade" id="modalImagem1" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+    <div class="modal-content">
+      <img src="./assets/image/programacao1.jpeg" class="my-auto img-fluid" alt="Imagem 1">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagem2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+    <div class="modal-content">
+      <img src="./assets/image/programacao2.jpeg" class="my-auto img-fluid" alt="Imagem 2">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagem3" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+    <div class="modal-content">
+      <img src="./assets/image/programacao3.jpeg" class="my-auto img-fluid" alt="Imagem 3">
+    </div>
+  </div>
+</div>
+</main>
     <!-- telas maiores -->
           <header class="w-100 d-none d-lg-block">
         <div class="container-fluid px-0 pb-0">
@@ -83,10 +119,53 @@
           </nav>
         </div>
     </header>
-    <main class="container-fluid d-none d-lg-block px-0 ">
-        <div class=" background-primary d-flex justify-content-center align-items-center" style="height: 50vh;">
-          <h3 style="font-size: 6rem;" class="fc-primary text-center h1 d-md-none fw-semibold d-none d-lg-block">EM BREVE</h3>
-        </div>
+<main class="container-fluid d-none d-lg-block px-0 ">
+        <div class=" bg-white d-flex justify-content-center align-items-center" >
+<!-- Carousel -->
+<div id="carouselProgramacao" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/image/programacao1.jpeg" class="d-block w-50 mx-auto img-thumbnail" alt="Imagem 1" data-bs-toggle="modal" data-bs-target="#modalImagem1">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/image/programacao2.jpeg" class="d-block w-50 mx-auto img-thumbnail" alt="Imagem 2" data-bs-toggle="modal" data-bs-target="#modalImagem2">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/image/programacao3.jpeg" class="d-block w-50 mx-auto img-thumbnail" alt="Imagem 3" data-bs-toggle="modal" data-bs-target="#modalImagem3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProgramacao" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselProgramacao" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Modais para cada imagem -->
+<div class="modal fade" id="modalImagem1" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <img src="./assets/image/programacao1.jpeg" class="w-50 mx-auto img-fluid " alt="Imagem 1">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalImagem2" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <img src="./assets/image/programacao2.jpeg" class="w-50 mx-auto img-fluid" alt="Imagem 2">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalImagem3" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <img src="./assets/image/programacao3.jpeg" class="w-50 mx-auto img-fluid" alt="Imagem 3">
+    </div>
+  </div>
+</div>
     </main>
 <footer class="bg-dark text-white pt-4 pb-2">
   <div class="container">
